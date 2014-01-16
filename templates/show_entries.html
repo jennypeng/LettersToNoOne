@@ -1,0 +1,17 @@
+
+{% extends "layout.html" %}
+{% block body %}
+<div id = "outer">
+  <div class = "left">
+    <img src="http://i.imgur.com/qg3UJfD.png"><a href={{ url_for('home') }}><img class = "glyph" src="http://i.imgur.com/LaEQ28F.png"></a><a href={{ url_for('write') }}><img class = "glyph" src="http://i.imgur.com/rf8soeQ.png"></a>
+  </div>
+  <div class = "superright table">
+    <ul class=entries>
+      {% for entry in entries %}
+      <div class = "letter"><h2>{{ entry.date }}</h2>{{ entry.text|safe }}
+      </div>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}

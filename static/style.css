@@ -1,0 +1,29 @@
+body            { color: black;font-family: font-family: 'HelveticaNeueW01-LtExt',"HelveticaNeue","Helvetica Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;, sans-serif; background: black; }
+a, h1, h2       { color: white; }
+h1, h2          { color: white; background-color: black; font-family: font-family: 'HelveticaNeueW01-LtExt',"HelveticaNeue","Helvetica Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;, serif; margin: 0; }
+h1              { border-bottom: 1px solid white; }
+h2              { font-size: 1.2em; }
+
+.page           { background: white;}
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { font-size: 20px; color: white; margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+
+
+#post           { height: 100%; width: 100%;}
+html            { background-color: black}
+.glyph          { width: 20px; }
+.letter         { background-color: black; padding-top: 20px; min-width: 700px; max-width: 700px; border-bottom: 1px solid white; color: white; font-size: 18px; font-family: 'HelveticaNeueW01-LtExt',"HelveticaNeue","Helvetica Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;, sans-serif; }
+.table          { float: right; max-width: 100%; display: table; }
+input, textarea { font-family: 'HelveticaNeueW01-LtExt',"HelveticaNeue","Helvetica Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;, sans-serif; background-color: black; color: white; outline: none; border: none; font-size: 20px; }
+#fake_textarea  { width: 700px; min-height: 500px; border: none; outline: none; padding: 5px; font-family: 'HelveticaNeueW01-LtExt',"HelveticaNeue","Helvetica Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;, sans-serif; color: white; font-size: 20px; }
+a               { font-size: 20px; }
+#writeone       { padding-left: 10%; display: table-cell; }
+img             { width: 400px; }
+.left           { float: left; position: fixed; }
+.superright     { position: absolute; top: 0; right: 0; }
+.right          { max-width: 50%; float: right; }
+#readone        { padding-left: 30%; display: table-cell; }
+#outer          { display: inline-block; }
